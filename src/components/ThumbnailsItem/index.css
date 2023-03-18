@@ -1,0 +1,26 @@
+.list-item {
+  margin-bottom: 10px;
+}
+
+.thumbnail-image {
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    height: 110px;
+    width: 130px;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
