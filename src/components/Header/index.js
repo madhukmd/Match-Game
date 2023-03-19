@@ -9,16 +9,18 @@ const Header = props => {
   return (
     <nav className="nav-container">
       <div className="nav-content">
-        <img src={logo} alt="website logo" className="website-logo" />
-        <div className="nav-score-container">
-          <p className="score">
-            score: <span className="span">{score}</span>
-          </p>
-          <div className="nav-timer">
+        <img src={logo} className="website-logo" alt="website logo" />
+        <ul className="nav-score-container">
+          <li>
+            <p>
+              Score: <span className="span">{score}</span>
+            </p>
+          </li>
+          <li className="nav-timer">
             <img src={timer} alt="timer" className="timer" />
             <p className="time">{initialTime} sec</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </nav>
   )

@@ -15,7 +15,9 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1110px;
+  list-style-type: none;
 }
+
 .nav-score-container {
   color: #ffffff;
   font-size: 12px;
@@ -23,6 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  list-style-type: none;
 }
 .nav-timer {
   display: flex;
